@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    /* background-color: #212121; */
+    /* color: white; */
+}
+nav{
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: aqua;
+    background: none;
+    /* justify-content: space-evenly; */
+    z-index: 3;
+}
+#Logo{
+
+    width: 40px;
+    height: 40px;
+    left: 0;
+    background-image: url(pbs_logo-removebg-preview.png);
+    border-radius: 10px;
+    background-size:contain;
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+    overflow: hidden;
+ /*  position: fixed; */
+}
+ul{
+.margin{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+ul{
+    
+    display:flex;
+    gap: 30px;
+    list-style: none;
+}
+/*header{
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+/*.logo-container img.logo{
+    max-width: 150px;
+    height: auto;
+}*/
+}
+nav>input{
+    height: 30%;
+    width: 20%;
+   align-items: center;
+    padding: 3px;
+    /* border: 13px rgb(31, 96, 152) solid ; */
+    border-radius: 15px;
+    font-family: cursive;
+}
+.margin>li:hover{
+    text-decoration: underline ;
+     
+}
+.menu {
+    list-style: none;
+ /*   position: fixed;*/
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.menu li {
+    position: relative;
+}
+/* Submenu styling */
+.submenu {
+    display: none; /* Hide submenu initially */
+    position: absolute;
+    top: 120%; /* Position it just below the parent li */
+    left: 0;
+    background-color: #f0f0f0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.submenu li {
+    padding: 5px;
+   
+}
+/* Show submenu on hover */
+.menu li:hover .submenu {
+    display: block;
+
+}
+/* Additional styling (optional) */
+.menu li:hover {
+    cursor: pointer;
+}
+.submenu li:hover {
+    background-color: #ddd;
+    
+}
+.video{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    /* left: 5%;
+    right: 5%; */
+    object-fit:cover;
+    z-index: 2;
+}
+body {
+    margin-bottom: 100px; /* Adds 100px space at the bottom of the page */
+  }
+  
+  .container {
+    padding-bottom: 50px; /* Adds 50px padding inside the container */
+  }
+  .section{
+    z-index: 3;
+  }
